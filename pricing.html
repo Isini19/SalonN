@@ -1,194 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="pricing.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SalonNilu - Price List</title>
+  <head>
+    <link rel="stylesheet" href="pricing.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SalonNilu - Pricing</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap");
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #f5e6d3 0%, #e8d5c4 50%, #ddbea9 100%);
-            min-height: 100vh;
-            color: #8b4513;
-            position: relative;
-            overflow-x: hidden;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        /* Decorative Elements */
-        
+      body {
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(
+          135deg,
+          #f5e6d3 0%,
+          #e8d5c4 50%,
+          #ddbea9 100%
+        );
+        min-height: 100vh;
+        color: #9f5018;
+        position: relative;
+        overflow-x: hidden;
+      }
+
+      /* Decorative Elements */
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Decorative Elements -->
     <div class="decorative-leaf leaf-1"></div>
     <div class="decorative-leaf leaf-2"></div>
 
     <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="logo">SalonNilu</div>
-            
-            <div class="hero-image"></div>
-            
-            <h1 class="main-title">PRICE<br>LIST</h1>
-            <h2 class="subtitle">Beauty Salon</h2>
+      <!-- Header -->
+      <div class="header">
+        <div class="logo">SalonNilu</div>
+
+        <div class="hero-image"></div>
+
+        <h1 class="main-title">PRICE<br />LIST</h1>
+        <h2 class="subtitle">Beauty Salon</h2>
+      </div>
+
+      <!-- Services -->
+      <div class="services-container">
+        <!-- Hair Services -->
+        <div class="service-section">
+          <div class="section-title">Hair Services</div>
+          <ul class="service-list">
+            <li class="service-item">
+              <span class="service-name">Layered Hair Cut</span>
+              <span class="service-price">Rs. 1,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Blow Dry</span>
+              <span class="service-price">Rs. 800</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Hair Dye (Single Color)</span>
+              <span class="service-price">Rs. 3,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Hair Dye (Highlights)</span>
+              <span class="service-price">Rs. 4,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Hair Treatment</span>
+              <span class="service-price">Rs. 2,000</span>
+            </li>
+          </ul>
         </div>
 
-        <!-- Services -->
-        <div class="services-container">
-            <!-- Hair Services -->
-            <div class="service-section">
-                <div class="section-title">Hair Services</div>
-                <ul class="service-list">
-                    <li class="service-item">
-                        <span class="service-name">Layered Hair Cut</span>
-                        <span class="service-price">Rs. 1,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Blow Dry</span>
-                        <span class="service-price">Rs. 800</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Hair Dye (Single Color)</span>
-                        <span class="service-price">Rs. 3,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Hair Dye (Highlights)</span>
-                        <span class="service-price">Rs. 4,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Hair Treatment</span>
-                        <span class="service-price">Rs. 2,000</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Nail Care -->
-            <div class="service-section">
-                <div class="section-title">Nail Care</div>
-                <ul class="service-list">
-                    <li class="service-item">
-                        <span class="service-name">Basic Manicure</span>
-                        <span class="service-price">Rs. 1,200</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Classic Manicure</span>
-                        <span class="service-price">Rs. 1,800</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Basic Pedicure</span>
-                        <span class="service-price">Rs. 1,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Classic Pedicure</span>
-                        <span class="service-price">Rs. 2,200</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Gel Polish</span>
-                        <span class="service-price">Rs. 800</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Makeup -->
-            <div class="service-section">
-                <div class="section-title">Make Up</div>
-                <ul class="service-list">
-                    <li class="service-item">
-                        <span class="service-name">Matte Make-up</span>
-                        <span class="service-price">Rs. 3,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Dewy Make-up</span>
-                        <span class="service-price">Rs. 4,000</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Natural Glow</span>
-                        <span class="service-price">Rs. 3,000</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Bridal Makeup</span>
-                        <span class="service-price">Rs. 8,000</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Party Makeup</span>
-                        <span class="service-price">Rs. 4,500</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Facial Services -->
-            <div class="service-section">
-                <div class="section-title">Facial Treatments</div>
-                <ul class="service-list">
-                    <li class="service-item">
-                        <span class="service-name">Basic Facial</span>
-                        <span class="service-price">Rs. 2,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Deep Cleansing Facial</span>
-                        <span class="service-price">Rs. 3,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Anti-Aging Facial</span>
-                        <span class="service-price">Rs. 4,500</span>
-                    </li>
-                    <li class="service-item">
-                        <span class="service-name">Hydrating Facial</span>
-                        <span class="service-price">Rs. 3,800</span>
-                    </li>
-                </ul>
-            </div>
+        <!-- Nail Care -->
+        <div class="service-section">
+          <div class="section-title">Nail Care</div>
+          <ul class="service-list">
+            <li class="service-item">
+              <span class="service-name">Basic Manicure</span>
+              <span class="service-price">Rs. 1,200</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Classic Manicure</span>
+              <span class="service-price">Rs. 1,800</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Basic Pedicure</span>
+              <span class="service-price">Rs. 1,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Classic Pedicure</span>
+              <span class="service-price">Rs. 2,200</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Gel Polish</span>
+              <span class="service-price">Rs. 800</span>
+            </li>
+          </ul>
         </div>
 
-        <!-- Special Packages -->
-        <div class="packages-section">
-            <h2 class="packages-title">Special Packages</h2>
-            <div class="packages-grid">
-                <div class="package-card">
-                    <div class="package-name">Bridal Complete</div>
-                    <div class="package-description">Bridal Makeup + Hair Styling + Manicure + Pedicure + Trial Session</div>
-                    <div class="package-price">Rs. 18,000</div>
-                </div>
-                <div class="package-card">
-                    <div class="package-name">Pamper Day</div>
-                    <div class="package-description">Facial + Hair Treatment + Manicure + Pedicure + Blow Dry</div>
-                    <div class="package-price">Rs. 7,500</div>
-                </div>
-                <div class="package-card">
-                    <div class="package-name">Party Ready</div>
-                    <div class="package-description">Party Makeup + Hair Styling + Basic Manicure</div>
-                    <div class="package-price">Rs. 6,500</div>
-                </div>
-            </div>
+        <!-- Makeup -->
+        <div class="service-section">
+          <div class="section-title">Make Up</div>
+          <ul class="service-list">
+            <li class="service-item">
+              <span class="service-name">Matte Make-up</span>
+              <span class="service-price">Rs. 3,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Dewy Make-up</span>
+              <span class="service-price">Rs. 4,000</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Natural Glow</span>
+              <span class="service-price">Rs. 3,000</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Bridal Makeup</span>
+              <span class="service-price">Rs. 8,000</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Party Makeup</span>
+              <span class="service-price">Rs. 4,500</span>
+            </li>
+          </ul>
         </div>
 
-        <!-- Contact Section -->
-        <div class="contact-section">
-            <h2 class="contact-title">Contact</h2>
-            <div class="contact-info">
-                <div class="contact-item">+94 77 123 4567</div>
-                <div class="contact-item">www.salonnilu.com</div>
-            </div>
-            
-            <a href="#" class="book-now-btn">Book Your Appointment</a>
-            
-            <div class="dots">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+        <!-- Facial Services -->
+        <div class="service-section">
+          <div class="section-title">Facial Treatments</div>
+          <ul class="service-list">
+            <li class="service-item">
+              <span class="service-name">Basic Facial</span>
+              <span class="service-price">Rs. 2,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Deep Cleansing Facial</span>
+              <span class="service-price">Rs. 3,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Anti-Aging Facial</span>
+              <span class="service-price">Rs. 4,500</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Hydrating Facial</span>
+              <span class="service-price">Rs. 3,800</span>
+            </li>
+          </ul>
         </div>
+      </div>
+
+      <!-- Special Packages -->
+      <div class="packages-section">
+        <h2 class="packages-title">Special Packages</h2>
+        <div class="packages-grid">
+          <div class="package-card">
+            <div class="package-name">Bridal Complete</div>
+            <div class="package-description">
+              Bridal Makeup + Hair Styling + Manicure + Pedicure + Trial Session
+            </div>
+            <div class="package-price">Rs. 18,000</div>
+          </div>
+          <div class="package-card">
+            <div class="package-name">Pamper Day</div>
+            <div class="package-description">
+              Facial + Hair Treatment + Manicure + Pedicure + Blow Dry
+            </div>
+            <div class="package-price">Rs. 7,500</div>
+          </div>
+          <div class="package-card">
+            <div class="package-name">Party Ready</div>
+            <div class="package-description">
+              Party Makeup + Hair Styling + Basic Manicure
+            </div>
+            <div class="package-price">Rs. 6,500</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="contact-section">
+        <h2 class="contact-title">Contact</h2>
+        <div class="contact-info">
+          <div class="contact-item">+94 77 123 4567</div>
+          <div class="contact-item">www.salonnilu.com</div>
+        </div>
+
+        <a href="#" class="book-now-btn">Book Your Appointment</a>
+
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
